@@ -1,2 +1,2 @@
 # Cpp_Language_Learning
-//初学C++日常.
+>C++日常学习.
