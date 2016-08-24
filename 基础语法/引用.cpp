@@ -1,6 +1,7 @@
 #include <iostream>
 
 using namespace std;
+/*
 struct Teacher{
     char name[64];
     int age;
@@ -27,4 +28,24 @@ int main1(int argc, char *argv[]) {
     cout<<a<<endl;
     b=12;
     cout<<a<<endl;
+}
+*/
+int getAA1(){
+    int a;
+    a=10;
+    return a;
+}
+int& getAA2(){
+    int a;
+    a=10;
+    return a;
+}
+int main(){
+    int a1=0;
+    int a2=0;
+    
+    a1=getAA1();
+    a2=getAA2();
+    int &a3 = getAA2();
+    cout<<a1<<"  "<<a2<<"  "<<a3<<endl;
 }
